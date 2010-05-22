@@ -58,6 +58,7 @@ defaults:
 		{ version: "draft75"  // [string] Maybe be either draft75 or draft76
 		, origin: "*"         // [string | array] Any valid domain name
 		, subprotocol: null   // [string | array]
+		, debug: false        // boolean
 	  }
 
 After a websocket client connects to the server, the server will emit the `'connection'` event, with the `ws/connection`
